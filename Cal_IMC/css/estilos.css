@@ -1,0 +1,34 @@
+html{
+    font-size: 20px;
+}
+body{
+    background-color: cadetblue;
+}
+form{
+    background-color: bisque;
+    border: brown solid 3px;
+    margin-left: 33%;
+    text-align: justify;
+    width: 480px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+input{
+    background-color:honeydew;
+    width: 50px;
+    margin: 5px;
+    border-radius: 4px;    
+}
+#nombre{
+    width: 150px;
+}
+#resultado{
+    width: 420px;
+    margin-bottom: 10px;
+    margin-left: 27px;
+}
+button{
+    margin-left: 15%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}

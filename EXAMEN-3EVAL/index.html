@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex_3EVAL_Calculadora_Medias_DAM-DAW</Ex_3EVAL_Calculadora_Medias_DAM-DAW></title>
+    <link rel="stylesheet" href="./css/stilos.css">
+</head>
+<body>
+
+    <header>
+        <nav>            
+            <img id="logo" src="https://i.pinimg.com/originals/a3/98/cc/a398ccd6ba821d4ed6885d736c8ca536.jpg" alt="logo">
+            <h1>Calculadora de medias:</h1>            
+            <ul id="menú">                                
+                <li><a href="https://en.wikipedia.org/wiki/X-Mansion" target="_blank">Información del centro</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/List_of_Xavier_Institute_students_and_staff" target="_blank">Estudiantes/Personal docente del centro </a></li>
+                <li><a href="https://thexavierinstitute.fandom.com/wiki/Charles_Xavier_(canon_character)" target="_blank">Fundador</a></li>
+                
+            </ul>
+        </nav>       
+    </header>
+
+    <main>
+        <form id="formul1" action="#" method="GET">
+
+            <ul>
+                <li>
+                    <label for="asig1"> Programación</label>
+                    <input id="asig1" type="number" name="usuario_asig1">
+                </li>
+    
+                <li>
+                    <label for="asig2"> Bases de datos</label>
+                    <input id="asig2" type="number" name="usuario_asig2">
+                </li>
+    
+                <li>
+                    <label for="asig3"> Entornos de desarrollo</label>
+                    <input id="asig3" type="number" name="usuario_asig3">
+                </li>
+    
+                <li>
+                    <label for="asig4"> Lenguajes de marcas</label>
+                    <input id="asig4" type="number" name="usuario_asig4">
+                </li>
+            </ul>
+    
+            <button type="submit" title="finalizar formulario" onclick="return calculo();">Calcular</button>      
+            
+        </form>
+    
+        <form id="formul2" action="">
+            <label for="resultado"> Media:</label>
+            <input id="resultado" type="text" name="usuario_resultado" readonly>
+        </form>
+    </main>
+    
+    <footer>        
+        <div id="footer1">
+            <p><b>Autor: Luis Vizuete Plaza</b></p> 
+            <p>Módulo LLMM</p>  
+        </div>
+        <div id="footer2">
+            <p><b>Universidad de Miskatonic</b></p> 
+            <p>ciudad de Arkham, Massachusetts, EEUU</p>  
+        </div>
+    </footer> 
+
+    <script type="text/javascript" src="./js/app.js"></script>
+</body>
+</html>
